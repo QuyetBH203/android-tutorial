@@ -13,7 +13,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Caculator extends AppCompatActivity {
+public class Calculator extends AppCompatActivity {
     private static final String TAG = "Caculator";
     private EditText editText1, editText2;
     private TextView result;
