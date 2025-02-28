@@ -6,4 +6,12 @@
         <item>Multiply</item>
         <item>Divide</item>
     </string-array>
+    <string-array name="tech">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Flutter</item>
+        <item>React Native</item>
+        <item>PHP</item>
+    </string-array>
 </resources>

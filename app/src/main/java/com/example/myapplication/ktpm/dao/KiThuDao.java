@@ -32,7 +32,7 @@ public class KiThuDao {
         }
 
         db.collection("users").document(userId)
-                .set(userData, SetOptions.merge())  // Sử dụng merge để không ghi đè toàn bộ document
+                .set(userData, SetOptions.merge())
                 .addOnSuccessListener(aVoid ->
                         Toast.makeText(context, "User registered successfully!", Toast.LENGTH_SHORT).show()
                 )
